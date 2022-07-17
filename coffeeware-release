@@ -1,37 +1,9 @@
---[[
-   _____       __  __                                   _____      _                      __      __       
-  / ____|     / _|/ _|                                 |  __ \    | |                     \ \    / /       
- | |     ___ | |_| |_ ___  _____      ____ _ _ __ ___  | |__) |___| | ___  __ _ ___  ___   \ \  / /__ _ __ 
- | |    / _ \|  _|  _/ _ \/ _ \ \ /\ / / _` | '__/ _ \ |  _  // _ \ |/ _ \/ _` / __|/ _ \   \ \/ / _ \ '__|
- | |___| (_) | | | ||  __/  __/\ V  V / (_| | | |  __/ | | \ \  __/ |  __/ (_| \__ \  __/    \  /  __/ |   
-  \_____\___/|_| |_| \___|\___| \_/\_/ \__,_|_|  \___| |_|  \_\___|_|\___|\__,_|___/\___|     \/ \___|_|   
-                                                                                                           
-(it's still being updated despite the leaks, go to shidemuri's github. the newer releases may have issues so i'm leaving the leak up)
-                                                     >>> https://github.com/shidemuri/coffeeware
-                                                     
-this may not be exactly the release version because i changed labels to provide info, but overall function and scripts should be the exact same
-]]--
-
---[[
-Join
-      _ _                       _                  __                   _       _                 _           _     
-     | (_)                     | |                / /                  | |     | |               | |         | |    
-   __| |_ ___  ___ ___  _ __ __| |  __ _  __ _   / / __   ___ _ __   __| |_   _| |_   _ _ __ ___ | |__  _   _| |__  
-  / _` | / __|/ __/ _ \| '__/ _` | / _` |/ _` | / / '_ \ / _ \ '_ \ / _` | | | | | | | | '_ ` _ \| '_ \| | | | '_ \ 
- | (_| | \__ \ (_| (_) | | | (_| || (_| | (_| |/ /| |_) |  __/ | | | (_| | |_| | | |_| | | | | | | | | | |_| | |_) |
-  \__,_|_|___/\___\___/|_|  \__,_(_)__, |\__, /_/ | .__/ \___|_| |_|\__,_|\__,_|_|\__,_|_| |_| |_|_| |_|\__,_|_.__/ 
-                                    __/ | __/ |   | |                                                               
-                                   |___/ |___/    |_|                                                               
-  for more scripts and help with using this script. Thank you for your support!                                   
-                                   
-]]--
 -- WARNING: THE NETLESS IS LITERALLY DOODOO!!!!!!!!! I ALSO DONT TAKE CREDIT FOR ANYTHING!!!!!!!
 local ver = 'v1.0.0' -- by release ver i mean this was the version that was distributed upon its release.
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/youngchongosreal/coffeeware/main/UI-leak"))() -- this isn't shidemuri's ui because they took it down :angry:
 local hub = Library:New("Coffeeware Leaked " .. ver)
 local Lighting = game:GetService("Lighting")
 local UserInputService = game:GetService("UserInputService")
-local WarningTab = hub:NewTab("README")
 local SettingsTab = hub:NewTab("Settings")
 local CreditsTab = hub:NewTab("Credits")
 local ScriptsTab = hub:NewTab("Scripts")
@@ -256,25 +228,6 @@ local function _reanimate()
 		Noclipping:Disconnect()
 	end)
 end
-
-WarningTab:NewLabel('PLEASE READ THIS!')
-WarningTab:NewLabel('Do not help/support Tescalus/Croaxer or Padero/Shidemuri!')
-WarningTab:NewLabel('He admitted to exit scamming 100k robux despite the fact')
-WarningTab:NewLabel('the script was nearly done and ready for release.')
-WarningTab:NewLabel('He expected Padero to continue it.. but he skidded it.')
-WarningTab:NewLabel('80% of the scripts are mostly clientsided or skidded.')
-WarningTab:NewLabel('(CONVERTING = MORE EFFORTFUL SKIDDING)')
-WarningTab:NewLabel('Padero barely knows lua and has admitted to not being')
-WarningTab:NewLabel('good at coding. Do not ever buy something from those people.')
-WarningTab:NewLabel('This includes their boosters and other scripters like')
-WarningTab:NewLabel('ProductionTakeOne. Anyways, by using this script,')
-WarningTab:NewLabel('you agree that this script was leaked for educational purposes')
-WarningTab:NewLabel('dont use it maliciously ;)')
-WarningTab:NewLabel('If you dont believe me ask Padero or Croaxer')
-WarningTab:NewLabel('Pendulum Hub Premium doesnt exist anymore')
-WarningTab:NewLabel('It was all an exit scam + padero helped scam it')
-WarningTab:NewLabel('also "FuckMeSidewaysAndCallMeGay" is a local thing')
-WarningTab:NewLabel('padero and croaxer/tescalus/support! are concerning ppl')
 
 CreditsTab:NewLabel('Reanimation script skidded Croaxer and ProductionTakeOne#3330')
 CreditsTab:NewLabel('(croaxer is tescalus for the retards who didnt know)')
